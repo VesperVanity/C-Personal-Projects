@@ -1,13 +1,19 @@
+/*
+No clue how to set that up just in the command line without any GUI
+So let's just create the general functionality and print it to the console
+
+So I suppose we need to first be capable of string inputs that will be the task string name
+"Clean your room" for example, print that input string with all other to-do-list tasks
+We can also use a mode in which it's either a bullet list, or, a numbered list
+*/
+//////////////////////////////////////////////////////////////////////////////////
+//Date: 02/20/25
+//Author: VV - VesperVanity - https://github.com/VesperVanit
+
 #include <stdio.h>
 
 void create_task_string(int task_count, int is_style_numbered);
 
-//No clue how to set that up just in the command line without any GUI
-//So let's just create the general functionality and print it to the console
-
-//So I suppose we need to first be capable of string inputs that will be the task string name
-//"Clean your room" for example, print that input string with all other to-do-list tasks
-//We can also use a mode in which it's either a bullet list, or, a numbered list
 int main(void)
 {
 	printf("%s\n", "Type B for bullet list style, and N for numbered list style: ");
